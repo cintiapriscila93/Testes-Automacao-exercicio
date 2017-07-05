@@ -1,6 +1,11 @@
-Teste automatizado - Exercio 1 - Soma com numeros aleatorios - Elias Nogueira 
+Teste automatizado - Exercicio 1 - Soma com numeros aleatorios - Elias Nogueira 
 
-Neste desafio, tente criar um script que some os dois valores e os inclua na caixa de texto. O resultado tem que ser o texto 'Correto'.
+Resolução - codigo disponivel no pacote br.com.CieloAutomacaoExercicio, classe: AutomacaoSomaAleatoria.java disponivel na pasta:
+
+src/main/java/br/com/CieloAutomacaoExercicio
+
+
+- Neste desafio, tente criar um script que some os dois valores e os inclua na caixa de texto. O resultado tem que ser o texto 'Correto'.
 
 Dicas!!!
 
@@ -13,7 +18,7 @@ Você vai precisar utilizar, no Selenium IDE, alguns comandos (nao exatamente os 
     assertText
     store
 
-Teste automatizado - Exercio 2 - Edição inline - Elias Nogueira 
+Teste automatizado - Exercicio 2 - Edição inline - Elias Nogueira 
 
 Edição inline
 
@@ -35,7 +40,7 @@ Dicas!!!
     Sem dicas desta vez, este é facil!!!
 
 
-Teste automatizado - Exercio 4 - Auto preenchimento de campos - Elias Nogueira 
+Teste automatizado - Exercicio 4 - Auto preenchimento de campos - Elias Nogueira 
 
 
 Auto preenchimento de campos
@@ -67,7 +72,7 @@ Conseguiu fazer o script funcionar? Agora incremente com mais estes dois passos:
 Referência
 Este exemplo foi retirado do link: http://www.republicavirtual.com.br/cep/exemplos.php 
 
-Teste automatizado - Exercio 5 - IDs Dinâmicos - Elias Nogueira
+Teste automatizado - Exercicio 5 - IDs Dinâmicos - Elias Nogueira
 
 
 IDs Dinâmicos
@@ -103,7 +108,7 @@ Conseguiu executar o script com sucesso? Agora incremente com mais estes passos:
     Garanta que os campos de Username não estão iguais validando a mensagem "Os campos não tem o mesmo valor!"
 
 
-Teste automatizado - Exercio 6 - Validação de textos e comportamento on the fly - Elias Nogueira
+Teste automatizado - Exercicio 6 - Validação de textos e comportamento on the fly - Elias Nogueira
 
 Validação de textos e comportamento on the fly
 
