@@ -18,7 +18,7 @@ public static void main(String[] args) throws InterruptedException {
 	WebDriver driver = new FirefoxDriver();
 	driver.get("http://eliasnogueira.com/arquivos_blog/selenium/desafio/1desafio/");
 	
-//Buscando o elemento number1 e number2, que representa os numeros decimais que serão somandos.//
+   //Buscando o elemento number1 e number2, que representa os numeros decimais que serão somandos.//
 	String numero1 = driver.findElement(By.id("number1")).getText();
 	String numero2 = driver.findElement(By.id("number2")).getText();
 	
