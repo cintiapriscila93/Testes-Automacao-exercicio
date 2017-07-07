@@ -8,7 +8,6 @@ import junit.framework.Assert;
 
 public class AutomacaoSomaAleatoria {
 
-
 public static void main(String[] args) throws InterruptedException {
 
 	// Configurando servidor do Selenium no contexto da aplicação

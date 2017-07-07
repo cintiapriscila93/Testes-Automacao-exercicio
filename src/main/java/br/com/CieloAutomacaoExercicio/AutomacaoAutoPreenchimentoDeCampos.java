@@ -49,18 +49,16 @@ public class AutomacaoAutoPreenchimentoDeCampos {
 			
 			// Tempo de parada por segundos para efetuar a ação de clicar no botão "Limpar".//
             Thread.sleep(4000);
-	    	
-            // Buscando o elemento xml do botão "Limpar" e efetuando o clique no botão.//
+	          
+	        // Buscando o elemento xml do botão "Limpar" e efetuando o clique no botão.//
 	        WebElement limpar = driver.findElement(By.xpath(".//*[@id='wrap']/div[2]/form/input"));
 	        limpar.click();
 	        
 			//Realizando a validação dos campos do cadastro preenchido.//
-	        Assert.assertEquals("Avenida: Paulista", driver.findElement(By.id("rua")).getAttribute("value"));
-	        Assert.assertEquals("Bela Vista", driver.findElement(By.id("bairro")).getAttribute("value"));
-	        Assert.assertEquals("São Paulo", driver.findElement(By.id("cidade")).getAttribute("value"));
-	        Assert.assertEquals("SP", driver.findElement(By.id("estado")).getAttribute("value"));
-	       
-	        
+	        Assert.assertEquals("01310200",driver.findElement(By.xpath(".//*[@id='cep']")).getAttribute("value"));
+	        Assert.assertEquals("MASP",driver.findElement(By.xpath(".//*[@id='complemento']")).getAttribute("value"));
+	        Assert.assertEquals("1578",driver.findElement(By.xpath(".//*[@id='numero']")).getAttribute("value"));
+	
 	        
 	        
 	        
