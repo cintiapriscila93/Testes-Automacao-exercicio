@@ -59,16 +59,10 @@ public class AutomacaoAutoPreenchimentoDeCampos {
 	        Assert.assertEquals("MASP",driver.findElement(By.xpath(".//*[@id='complemento']")).getAttribute("value"));
 	        Assert.assertEquals("1578",driver.findElement(By.xpath(".//*[@id='numero']")).getAttribute("value"));
 	
-	        
-	        
-	        
-	        
+	          
 	     
 	        
 	    }
-			
-			
-			
 			
 			
 			
